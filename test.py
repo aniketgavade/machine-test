@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-file_path = 'users_data.xlsx'
+file_path = 'login_data.xlsx'
 
 def add_user():
     name = input("Enter Name: ")
@@ -34,8 +34,6 @@ def display_users():
     else:
         print("No users found.\n")
 
-
-
 def main():
     while True:
         print("1. Add User")
@@ -55,5 +53,4 @@ def main():
             print("Invalid choice. Please try again.\n")
 
 if __name__ == "__main__":
-
     main()
